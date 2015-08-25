@@ -1,8 +1,8 @@
 <?php
 class Millikart {
 
-	private $mid			= "e-mypos";
-	private $secretkey		= "2222111UYUYYTYEGHFJFDVQW76734KJK";
+	private $mid			= "";
+	private $secretkey		= "";
 	private $status			= "1"; // Əgər production level-ə keçmisinizsə 0 əvəzinə 1 yazın
 	private $currency		= "944"; //AZN
 	private $language			= "az";

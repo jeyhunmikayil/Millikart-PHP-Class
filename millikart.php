@@ -61,6 +61,6 @@ class Millikart {
 
 }
 
-$payment = new Millikart('Məbləği daxil edin', 'Unikal dəyər/Reference code tekrarlanmayamalidi', 'Description');
+$payment = new Millikart('Məbləği daxil edin', 'Unikal dəyər/Reference code tekrarlanmamalidi', 'Description');
 $response = $payment->getURL();
 header("Location: ".$response);
